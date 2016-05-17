@@ -1,0 +1,122 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+	        	padding: 0;
+    	    	border: 0;
+        		margin: 0 auto 0 auto;
+				font-size: 20px;
+				font-weight: normal;
+				font-family: Georgia, serif;
+				color: #555555;
+				width: 500px;
+				border-color: #555555;
+	      	}
+			.header {
+				letter-spacing: 2px;
+			}
+			h1 {
+				font-size: 30px;
+				font-family: Georgia, serif;
+				font-weight: bold;
+				text-align: center;
+				border-width: 0 0 3px 0;
+				margin: 30px 0 10px 0;
+			}
+			h2 {
+				font-size: 24px;
+				font-family: Georgia, sans-serif;
+				font-style: italic;
+				text-align: center;
+				margin: 0 0 30px 0;
+			}
+			.change-gender {
+				width: 5px;
+				height: 5px;
+				padding: 0 0 20px;
+			}
+			.change-gender input {
+				width: 5px;
+				height: 5px;
+				padding: 5px;
+				background: url(images/girl.png);
+			}
+			.hey-girl {
+				width: 500px;
+				height: 600px;
+				background: #eeeeee url(images/r1.jpg);
+				text-shadow: 
+					-2px 1px #555555, 
+					1px -2px #555555,
+    				-1px 2px #555555,
+    				1px 1px #555555;
+				margin-bottom: 20px;
+			}
+			.hey-girl h3 {				
+				padding-right: 250px;
+				padding-top: 20px;
+				font-size: 40px;
+				font-family: "Courier new";
+				font-weight: bold;
+				color: #eeeeee;
+				height: 400px;
+				width: 200px;
+			}
+			.hey-girl p {				
+				font-size: 30px;
+				font-family: "Courier new";
+				font-weight: bold;
+				color: #eeeeee;
+				padding-left: 150px;
+				width: 350px;
+				height: 200px;
+			}
+			label, input {
+				display: block;
+				margin-bottom: 10px;
+			}
+			label {
+				font-style: italic;
+				font-size: 20px;
+				text-align: center;
+			}
+			input {
+				text-align: center;
+				padding: 5px;
+				font-size: 15px;
+				font-family: "Courier new", mono-space;
+				font-weight: bold;
+				color: #eeeeee;
+				background: #777777;
+				border-color: #ffffff;
+				border-width: 1px;
+				margin: 0 auto 0 auto;
+			}
+			input[value=guess], input[value=hint]  {
+				margin: 0 auto 20px auto;
+				display: inline;
+				width: 70px;
+			}
+			.gh-buttons {
+				width: 500px;
+				padding: 0 178px;
+			}
+			input[type=text] {
+				margin: 0 auto 10px auto;
+				font-size: 20px;
+				padding: 10px;
+				width: 70px;
+				font-family: Georgia, serif;
+				color: #555555;
+				background: #ffffff;
+				border-color: #555555;
+			}
+			div li {
+				display: inline;
+				padding: 20px;
+			}
+			.gh-left{
+				text-align: center;
+				padding: 0 20px 20px;
+			}
+			.gh-count {
+				text-align: center;
+				padding: 0 20px 20px;
+			}
