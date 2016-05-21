@@ -3,7 +3,7 @@ $(document).read(function() {
 	var winningNumber; 	
 	var guesses = []
 	var direction;
-	var withinBounds;
+	var withinBounds = 0;
 	var hintsLeft;
 	var guessesLeft;
 
@@ -116,8 +116,8 @@ $(document).read(function() {
 		
 	/* **** Event Listeners/Handlers **** */
 
-	$('.gh-buttons').on('click', '.guess', playersGuessSubmission);
-	$('.gh-buttons').on('click', '.hint', provideHint);
+	$('.guess-button').on('click', playersGuessSubmission);
+	$('.hint-button').on('click', provideHint);
 	$('.reset').on('click', playAgain);
 
 
