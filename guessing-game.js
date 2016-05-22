@@ -57,6 +57,7 @@ $(document).ready(function(){
 		$('#hey-girl').addClass('bg');
 		$('#hey-girl p').text("I'm ready to play whenever you are.");
 		$('label').text("What number is Ryan thinking of?");
+		$('.p-guesses').text("");
 	}
 
 	function shuffle(array) {	
