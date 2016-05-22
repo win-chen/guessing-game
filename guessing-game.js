@@ -115,9 +115,18 @@ $(document).ready(function(){
 			guesses.push(player_guess);
 			this_game.guessesLeft--;
 			$('.guess-info p').text(this_game.guessesLeft.toString());
+			printGuesses();
 			checkWin();
 		}
 
+	}
+	
+	function printGuesses() {
+		var str = "";
+		for (var i = 0; i < guesses.length; i++) {
+			str += " " + guesses[i];
+		}
+		$('.p-guesses').text("previous guesses:" + str);
 	}
 	
 	function provideHint(){
@@ -184,6 +193,11 @@ $(document).ready(function(){
 // EVENT LISTENERS
 	$('.gender-button').on('click', changeGender);
 	$('.guess-button').on('click', playersGuessSubmission);
+	$('#guess').keypress(function(e) {
+		if(e.which == 13) {
+		   playersGuessSubmission();
+		}
+	});
 	$('.hint-button').on('click', provideHint);
 	$('.reset-button').on('click', resetGame);
 });	

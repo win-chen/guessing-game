@@ -141,3 +141,15 @@ input[type=text] {
 	background: #ffffff;
 	border-color: #555555;
 }
+
+.reset-button {
+	margin-bottom: 50px;
+}
+.p-guesses {
+	font-size: 17px;
+	background: #eeeeee;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px 10px 10px 10px;
+	letter-spacing: 2px;
+}
